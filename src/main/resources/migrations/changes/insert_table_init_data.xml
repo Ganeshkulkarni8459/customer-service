@@ -1,0 +1,33 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+	<changeSet author="Ganesh Kulkarni" id="20240421">
+		<insert schemaName="customer_audit" tableName="department">
+			<column name="id" value="1000" />
+			<column name="dept" value="2" />
+			<column name="emp_id" value="3" />
+		</insert>
+	</changeSet>
+	<changeSet author="Ganesh Kulkarni" id="20240421-1">
+		<insert schemaName="customer_audit" tableName="department">
+			<column name="id" value="1001" />
+			<column name="dept" value="300" />
+			<column name="emp_id" value="400" />
+		</insert>
+	</changeSet>
+	<changeSet author="Ganesh Kulkarni" id="20240421-2">
+		<insert schemaName="customer_audit" tableName="department">
+			<column name="id" value="1002" />
+			<column name="dept" value="300" />
+			<column name="emp_id" value="400" />
+		</insert>
+	</changeSet>
+	<changeSet author="Ganesh Kulkarni" id="20240421-3">
+		<insert schemaName="customer_audit" tableName="department">
+			<column name="id" value="1003" />
+			<column name="dept" value="300" />
+			<column name="emp_id" value="400" />
+		</insert>
+	</changeSet>
+</databaseChangeLog>
